@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "3210:3210"  # 映射到外部的端口
+    volumes:
+      - ./random-image-api.db:/app/random-image-api.db  # 持久化数据库文件
+    environment:
+      DOMAIN: ${DOMAIN}
+      PORT: ${PORT}
+    env_file:
+      - .env
