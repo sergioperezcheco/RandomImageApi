@@ -11,3 +11,4 @@ services:
       PORT: ${PORT}
     env_file:
       - .env
+    restart: always  # 自动重启策略
