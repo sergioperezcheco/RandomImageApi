@@ -20,3 +20,5 @@ docker compose up -d
 npm install
 npm start
 ```
+## 界面展示
+![17fae188](https://img.checo.cc/file/AgACAgUAAyEGAASU5diVAAMbZwETG6WTsy0SLZQi3C-nxx5a5NIAAujBMRv9XRBUONPa3qM1PQMBAAMCAAN3AAM2BA.png) 
