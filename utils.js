@@ -13,7 +13,7 @@ function isValidUrl(url) {
 
 // 验证 URL 是否为图片
 function isImageUrl(url) {
-    const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp'];
+    const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.ico', '.tiff', '.svg', '.heic', '.raw', '.psd'];
     return imageExtensions.some(ext => url.toLowerCase().endsWith(ext));
 }
 
