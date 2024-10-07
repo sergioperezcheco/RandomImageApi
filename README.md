@@ -2,6 +2,7 @@
 通过输入的若干图片URL生成随机图片API
 
 ## 用法
+2、3两步任选即可
 1. 下载项目源码并根据实际情况修改`.env`
 ```
 git clone https://github.com/sergioperezcheco/RandomImageApi.git
