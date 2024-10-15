@@ -10,7 +10,9 @@ cd RandomImageApi
 cp .env.example .env
 nano .env
 ```
-2. docker运行
+
+2. docker运行 
+
 修改.env文件之后执行
 ```
 docker compose up -d
