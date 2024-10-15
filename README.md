@@ -22,4 +22,4 @@ npm install
 npm start
 ```
 ## 界面展示
-![](https://img.checo.cc/file/AgACAgUAAyEGAASU5diVAAMbZwETG6WTsy0SLZQi3C-nxx5a5NIAAujBMRv9XRBUONPa3qM1PQMBAAMCAAN3AAM2BA.png) 
+![b25837de](https://img.checo.cc/file/AgACAgUAAyEGAASU5diVAAMmZw3L5yXq7xHPTeUp6FlXnlQ1DIEAAoDAMRvEeXBU5-6MzuaKDT8BAAMCAAN3AAM2BA.png)
