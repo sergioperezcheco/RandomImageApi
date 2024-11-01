@@ -25,3 +25,6 @@ npm start
 ```
 ## 界面展示
 ![](https://picgo.checo.cc/20241015100446.png)
+
+## 后续
+1. 提供Clouldflare部署，无需服务器
