@@ -27,4 +27,5 @@ npm start
 ![](https://picgo.checo.cc/20241015100446.png)
 
 ## 后续
-1. 提供Clouldflare部署，无需服务器
+- [ ] 提供Clouldflare部署，无需服务器
+- [ ] 支持身份验证
