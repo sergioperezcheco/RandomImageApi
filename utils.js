@@ -13,7 +13,16 @@ function isValidUrl(url) {
 
 // 验证 URL 是否为图片
 function isImageUrl(url) {
-    const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.ico', '.tiff', '.svg', '.heic', '.raw', '.psd'];
+    const imageExtensions = [
+        '.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.ico', '.tiff', '.svg', 
+        '.heic', '.raw', // 通用RAW格式
+        '.arw', // 索尼
+        '.nef', // 尼康
+        '.cr2', // 佳能
+        '.raf', // 富士
+        '.rw2', // 徕卡
+        '.dng'  // Adobe DNG，多种相机支持
+    ];
     return imageExtensions.some(ext => url.toLowerCase().endsWith(ext));
 }
 
